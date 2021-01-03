@@ -1,5 +1,10 @@
-var pens;
+function findBiggestFraction(a,b){
+    a>b ? console.log("a: ", a) : console.log("b: ",b)
+    
+    
+}
 
-pens = ["red","blue","green","yellow"];
+var x = 3/4;
+var y = 5/7;
 
-console.log("before: ", pens);
+findBiggestFraction(x,y);
